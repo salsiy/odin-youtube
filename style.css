@@ -1,0 +1,67 @@
+/* topleft yutube logo image  */
+.logo {
+    max-width: 35%;
+    padding-left: 15%;
+    position: relative;
+    top: 14%;
+}
+
+.youtubelogo {
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+
+.container-1 {
+    display: flex;
+    
+}
+
+/* .container-1 div {
+    border: 1px solid black;
+} */
+
+.searchbar input {
+    width: 80%;
+    margin-top: 2%;
+}
+
+.topleft i {
+    padding: 5%;
+    float:right
+
+}
+
+.youtubelogo {
+    flex: 1;
+
+}
+
+.searchbar {
+    flex: 2; 
+
+}
+.topleft {
+    flex: 1;
+}
+
+.video-box {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.video-box div {
+    border: 1px solid black;
+}
+.video-views {
+    flex: .3;
+    color: #8A8888;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 5%;
+}
+.icon {
+    margin: 2%;
+    font-weight: bold;
+    font-size: small;
+}
+
