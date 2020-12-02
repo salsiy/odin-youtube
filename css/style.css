@@ -43,25 +43,37 @@
 .topleft {
     flex: 1;
 }
+.mainvideo iframe {
+    margin: 2%;
+    width: 70%;
+    height: 450px;
+
+}
+
+.video-head{
+    margin: 2%;
+}
 
 .video-box {
     display: flex;
-    align-items:center;
-    justify-content: space-between;
-}
-
-.video-box div {
-    border: 1px solid black;
+    
 }
 .video-views {
-    flex: .3;
+    margin-left: 31%;
     color: #8A8888;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 5%;
+}
+.video-description {
+    margin: 2%;
 }
 .icon {
     margin: 2%;
     font-weight: bold;
     font-size: small;
+}
+
+.videoplayer {
+    display: grid;
 }
 
